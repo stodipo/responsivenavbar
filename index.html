@@ -6,21 +6,26 @@
 	<body>
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-			<ul>
-				<li><a href="#">Home</li>
-				<li><a href="#">About</li>
-					<ul>
-						<li><a href="#">Who We Are</li>
-						<li><a href="#">What We Do</li>	
+		<label for='show-menu' class='show-menu'>Show Menu</label>
+		<input type="checkbox" id="show-menu" role="button">
+			<ul id="menu">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a>
+					<ul class="hidden">
+						<li><a href="#">Who We Are</a></li>
+						<li><a href="#">What We Do</a></li>	
 					</ul>
-				<li><a href="#">Portfolio</li>
-					<ul>
-						<li><a href=""></li>
-						<li><a href=""></li>
-						<li><a href=""></li>
-					</ul>
-				<li><a href="#">News</li>
-				<li><a href="#">Contact</li>	
+				</li>
+				<li><a href="#">Portfolio</a>
+					<ul class="hidden">
+						<li><a href="#">Photography</a></li>
+						<li><a href="#">Web &amp; UI Design</a></li>
+						<li><a href="#">Illustrations</a></li>
+						</ul>	
+						</li>
+						
+				<li><a href="#">News</a></li>
+				<li><a href="#">Contact</a></li>	
 			</ul>
 	</body>
 </html>
